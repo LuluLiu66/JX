@@ -1,0 +1,331 @@
+/*导航部分start*/
+
+.nav {
+    /*height: 44px;*/
+    /*background-color: pink;*/
+    border-bottom: 2px solid #B1191A;
+}
+
+.categories {
+    width: 210px;
+    height: 44px;
+    background-color: #B1191A;
+    float: left;
+    overflow: visible;
+    z-index: 1;
+    position: relative;
+}
+
+.cate-dt {
+    /*width: 210px;
+    height: 44px;*/
+    background-color: #B1191A;
+}
+
+.cate-dt a {
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+    display: block;
+    width: 200px;
+    height: 44px;
+    padding-left: 10px;
+}
+
+.cate-dd {
+    /*width: 209px;*/
+    /*height: 466px;*/
+    background-color: #C81623;
+    border-left: 1px solid #B61D1D;
+    margin-top: 2px;
+}
+
+.cate-item {
+    height: 31px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.cate-item:hover {
+    background-color: #fff;
+}
+
+.cate-item a {
+    font: 400 14px/31px "microsoft yahei";
+    color: #FFF;
+}
+
+.cate-item:hover a {
+    color: #C81623;
+}
+
+.cate-item i {
+    font: 400 9px/14px consolas;
+    color: #FFF;
+    position: absolute;
+    right: 12px;
+    top: 9px;
+}
+
+.navitems {
+    width: 730px;
+    height: 44px;
+    overflow: hidden;
+    /*background-color: pink;*/
+    float: left;
+}
+
+.navitems li {
+    float: left;
+}
+
+.navitems a {
+    display: block;
+    padding: 0 20px;
+    font: 400 16px/44px "microsoft yahei";
+}
+
+.treasure {
+    width: 200px;
+    height: 44px;
+    /*background-color: blue;*/
+    float: right;
+}
+
+.treasure a {
+    width: 200px;
+    height: 54px;
+    display: block;
+    /*background-color: red;*/
+    background: url(../images/party.jpg);
+    position: relative;
+    top: -10px;
+    left: -50px;
+}
+
+/*导航部分end*/
+
+/*背景广告strat*/
+.bg-banner {
+    position: relative;
+}
+
+.bg-banner a {
+    height: 644px;
+    position: absolute;
+    width: 100%;
+    background: url(../images/bg-banner.jpg) no-repeat top center;
+}
+
+/*背景广告end*/
+
+/*主体部分start*/
+
+.main {
+    /*height: 466px;*/
+    /*background-color: pink;*/
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.slider {
+    width: 730px;
+    height: 454px;
+    background-color: blue;
+    float: left;
+    margin-left: 220px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.slider .circle {
+    /*width: 128px;*/
+    /*height: 18px;*/
+    /*background-color: red;*/
+    bottom: 8px;
+    left: 50%;
+    position: absolute;
+    margin-left: -66px;
+}
+
+.slider .circle li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-color: #3E3E3E;
+    margin: 0 2px;
+    text-align: center;
+    line-height: 18px;
+    color: #FFF;
+    border-radius: 9px;
+}
+
+.slider .circle li.current {
+    background-color: #B61B1F;
+}
+
+.party .arrow a,
+.slider .arrow a {
+    width: 28px;
+    height: 62px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+    top: 50%;
+    margin-top: -31px;
+    font: 400 22px/62px "simsun"; /*新宋体*/
+    text-align: center;
+    color: #FFF;
+}
+
+.party .arrow-l,
+.slider .arrow-l {
+    left: 0;
+}
+
+.party .arrow-r,
+.slider .arrow-r {
+    right: 0;
+}
+
+.main-extra {
+    width: 250px;
+    height: 454px;
+    /*background-color: pink;*/
+    float: right;
+    margin-top: 12px;
+}
+
+.news {
+    width: 248px;
+    height: 163px;
+    /*background-color: pink;*/
+    border: 1px solid #E4E4E4;
+}
+
+.news .mt {
+    width: 218px;
+    height: 32px;
+    border-bottom: 1px dotted #E4E4E4;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+.news .mt h2 {
+    font: 400 16px/32px "microsoft yahei";
+    float: left;
+}
+
+.news .mt a {
+    float: right;
+}
+
+.news .mc {
+    padding: 7px 0 0 15px;
+}
+
+.news .mc li {
+    line-height: 24px;
+}
+
+.news .mc span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.lifserv {
+    width: 248px;
+    height: 208px;
+    /*background-color: blue;*/
+    border: 1px solid #E4E4E4;
+    border-top: none;
+    overflow: hidden;
+}
+
+.lifserv ul {
+    width: 252px;
+}
+
+.lifserv li {
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    float: left;
+    position: relative;
+}
+
+.lifserv a {
+    width: 62px;
+    height: 28px;
+    display: block;
+    padding-top: 42px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.lifserv i {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    /*background-color: red;*/
+    left: 20px;
+    top: 12px;
+    background: url(../images/lifserv.png) 0 0 no-repeat;
+}
+
+.lifserv .lifserv-icon1 i {
+    background: url(../images/lifserv.png) 0 0 no-repeat;
+}
+
+.lifserv .lifserv-icon2 i {
+    background: url(../images/lifserv.png) 0 -25px no-repeat;
+}
+
+.lifserv .lifserv-icon3 i {
+    background: url(../images/lifserv.png) 0 -50px no-repeat;
+}
+
+.lifserv .lifserv-icon4 i {
+    background: url(../images/lifserv.png) 0 -75px no-repeat;
+}
+
+.right-pic {
+    margin-top: 5px;
+}
+
+/*主体部分end*/
+
+/*活动部分start*/
+.party {
+    /*height: 151px;
+    background-color: pink;*/
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.party .mt {
+    float: left;
+}
+
+.party .mc {
+    width: 1000px;
+    height: 164px;
+    /*background-color: blue;*/
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+
+.party .mc ul {
+    width: 6000px;
+}
+
+.party .mc li {
+    float: left;
+    margin-right: 1px;
+}
+
+/*活动部分end*/
+
+
+
+
